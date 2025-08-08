@@ -1,0 +1,23 @@
+﻿<Window x:Class="SleepChamp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Sleep Champ" Height="300" Width="400"
+        Background="#FF1E1E1E">  <!-- Dark background -->
+    
+    <Grid>
+        <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center" >
+            <!-- Heading -->
+            <TextBlock Text="Sleep Champ" 
+                       FontSize="36" 
+                       Foreground="White" 
+                       FontWeight="Bold" 
+                       HorizontalAlignment="Center"
+                       Margin="0,0,0,20" />
+
+            <!-- Dummy Button -->
+            <Button Content="Start Timer" 
+                    Width="150" Height="40"
+                    HorizontalAlignment="Center" />
+        </StackPanel>
+    </Grid>
+</Window>

@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SleepChamp", "SleepChamp.csproj", "{30741F8F-6561-4FBA-85E0-26EFB24D661D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{30741F8F-6561-4FBA-85E0-26EFB24D661D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30741F8F-6561-4FBA-85E0-26EFB24D661D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30741F8F-6561-4FBA-85E0-26EFB24D661D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30741F8F-6561-4FBA-85E0-26EFB24D661D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
