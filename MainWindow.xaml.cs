@@ -20,4 +20,21 @@ public partial class MainWindow : Window
     {
         InitializeComponent();
     }
+    
+    private bool IsTextNumeric(string text)
+    {
+        return int.TryParse(text, out _);
+    }
+    
+    private void TimerLengthText_PreviewTextInput(object sender, TextCompositionEventArgs e)
+    {
+        e.Handled = !IsTextNumeric(e.Text);
+    }
+
+
+    private void Button_OnClick(object sender, RoutedEventArgs e)
+    {
+        var textValue = TimerLengthText.Text;
+        Console.WriteLine($"Start button clicked! TextBox value: {textValue}");
+    }
 }
